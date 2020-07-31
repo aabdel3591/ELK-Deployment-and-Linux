@@ -1,7 +1,7 @@
 `---`
 
 `- name: Configure Elk VM with Docker`
-
+  
     hosts: elk
     remote_user: ansible
     become: true
@@ -10,7 +10,7 @@
 `## Use apt module`
 
     - name: Install docker.io
-        apt:
+      apt:
         force_apt_get: yes
         name: docker.io
         state: present
