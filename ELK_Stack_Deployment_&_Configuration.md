@@ -10,7 +10,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 For updated Filebeat Playbook, refer to:
 
-![Filebeat-Playbook](Markdown-Files/Filebeat-Playbook.md)
+![Filebeat-Playbook](Yaml-Files/Filebeat-Playbook.md)
+
+For other files used, refer to:
+
+![Yaml-Files](Yaml-files)
 
 This document contains the following details:
 - Description of the Topology
@@ -97,7 +101,7 @@ This ELK server is configured to monitor the following machines:
 - 10.0.0.5
 - 10.0.0.6
 
-We have installed the following Beats on these machines:
+The following Beats are installed:
 - Filebeat
 - Metricbeat
 
