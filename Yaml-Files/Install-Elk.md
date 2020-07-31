@@ -2,9 +2,11 @@
 
 `- name: Configure Elk VM with Docker`
   
-    hosts: elk
-    remote_user: ansible
-    tasks:
+`hosts: elk`
+
+`remote_user: ansible`
+
+`tasks:`
 
 `## Use apt module`
   

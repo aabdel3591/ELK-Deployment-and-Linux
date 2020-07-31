@@ -2,9 +2,12 @@
 
 `- name: Install and Launch Filebeat`
   
-    hosts: webservers
-    become: yes
-    tasks:
+`hosts: webservers`
+
+`become: yes`
+
+`tasks:`
+
     - name: Download filebeat .deb file
       command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.8.0-amd64.deb
 
